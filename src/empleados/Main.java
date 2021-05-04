@@ -11,6 +11,9 @@ public class Main {
         Operario Op = new Operario("Omara Quiyones Esperanza", 19, "QUEO210601HCH", "Ensamblador", "", true , 22 , false);
         Oficial Of = new Oficial("John Bon Johns Jovi", 30, "JOJJ010191", "Guardia", 'M', "Externo");
         
-      
+       Di.GetDirectivo();
+       Te.GetTecnico();
+       Op.GetOperario();
+       Of.GetOficial();
     }
 }

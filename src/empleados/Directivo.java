@@ -18,8 +18,11 @@ public class Directivo extends Empleados{
     }
    
     public void GetDirectivo(){
+        System.out.println(YELLOW+"----------------------------------------------");
+        System.out.println(RED+"Directivo");
         GetEmpleado();
-        System.out.println("Su departamento es "+ departamento);
-        System.out.println("Su cedula es " + cedula);       
+        System.out.println(CIAN+"Su departamento es: "+ departamento);
+        System.out.println(CIAN+"Su cedula es: " + cedula);       
+        System.out.println(YELLOW+"----------------------------------------------");
     }
 }

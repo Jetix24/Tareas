@@ -11,5 +11,13 @@ public class Oficial extends Empleados {
         this.turno = turno;
         this.contrato = contrato;
     }
+    public void GetOficial(){
+        System.out.println(YELLOW+"----------------------------------------------");
+        System.out.println(RED+"Oficial");
+        GetEmpleado();
+        System.out.println(CIAN+"Su turno es: " + turno);  
+        System.out.println(CIAN+"Su contratacion es por empresa: " + contrato);
+        System.out.println(YELLOW+"----------------------------------------------");
+    }
     
 }

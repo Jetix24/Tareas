@@ -16,5 +16,16 @@ public class Tecnico extends Empleados {
         this.titulo = titulo;
         this.equipo = equipo;
     }
-    
+    public void GetTecnico(){
+        System.out.println(YELLOW+"----------------------------------------------");
+        System.out.println(RED+"Tecnico");
+        GetEmpleado();
+        System.out.println(CIAN+"Su titulo es: " + titulo); 
+        if(equipo == true){
+            System.out.println(CIAN+"Si tiene equipo ");
+        }else{
+            System.out.println(CIAN+"No tiene equipo ");
+        }
+        System.out.println(YELLOW+"----------------------------------------------");
+    }
 }

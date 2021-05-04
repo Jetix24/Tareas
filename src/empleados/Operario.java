@@ -24,4 +24,16 @@ public class Operario extends Tecnico{
         this.no_li = no_li;
         this.planta = planta;
     }
+    public void GetOperario(){
+        System.out.println(YELLOW+"----------------------------------------------");
+        System.out.println(RED+"Operario");
+        GetEmpleado();
+        System.out.println(CIAN+"El numero de linea es: " + no_li);   
+        if(planta == true){
+            System.out.println(CIAN+"Si tiene planta ");
+        }else{
+            System.out.println(CIAN+"No tiene planta ");
+        }
+        System.out.println(YELLOW+"----------------------------------------------");
+    }
 }
